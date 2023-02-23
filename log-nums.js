@@ -2,8 +2,8 @@
 // Assume `num` will be a positive number
 
 var logNums = function(num) {
-    let num = []
-    for (i = 0; i < num.length; i++) {
-        return num += num
+    for (let i = 1; i <= num; i++) {
+        console.log(i)
     }
+    
 };
