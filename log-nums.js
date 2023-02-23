@@ -4,6 +4,6 @@
 var logNums = function(num) {
     let num = []
     for (i = 0; i < num.length; i++) {
-        console.log(num += i)
+        return num += num
     }
 };
